@@ -1,14 +1,34 @@
 <?php
 
+
+
+/**********************************************
+
+CHANGE THESE VARIABLES
+
+***********************************************/
+
+
 //This is the URL of your Calendar. It's the 'src' attribute of the iFrame tag in the embed code that Google gives you.
 //If you go to this URL, you can see the default styling of the calendar, which we're trying to change.
 $my_calendar="https://www.google.com/calendar/embed?src=envql02v2rijr5doiku8mulu3o%40group.calendar.google.com&ctz=America/New_York";
 
-//A constant. You don't need to modify this. It's where Google stores its calendar files.
-$google_domain = 'https://www.google.com/calendar/';
-
 //The location of our CSS file
 $our_css_url = 'css/custom-calendar.css';
+
+
+
+
+/**********************************************
+
+YOU PROBABLY WON'T NEED TO CHANGE ANYTHING
+BELOW THIS LINE
+
+***********************************************/
+
+
+//A constant. You don't need to modify this. It's where Google stores its calendar files.
+$google_domain = 'https://www.google.com/calendar/';
 
 //Creates the HTML file that we'll be displaying to our user
 $dom = new DOMDocument;

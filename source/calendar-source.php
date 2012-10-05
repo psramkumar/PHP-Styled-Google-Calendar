@@ -8,7 +8,7 @@ $my_calendar="https://www.google.com/calendar/embed?src=envql02v2rijr5doiku8mulu
 $google_domain = 'https://www.google.com/calendar/';
 
 //The location of our CSS file
-$our_css_url = 'static/custom-calendar.css';
+$our_css_url = 'css/custom-calendar.css';
 
 //Creates the HTML file that we'll be displaying to our user
 $dom = new DOMDocument;

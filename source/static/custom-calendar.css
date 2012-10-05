@@ -7,6 +7,12 @@ Find the elements you want to style with your favorite set of developer tools.
 
 I prefer Chrome's!
 
+Note that we're limited by the default styling and HTML structure Google chose to use.
+I found it to be pretty frustrating to work with. You might need to play around a bit
+to make the elements display and behave as you want them to.
+
+Goodluck!
+
 ******************************************/
 
 .dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{

@@ -3,6 +3,9 @@ Stylized-Google-Calendar
 
 When you embed a Google Calendar to your webpage, you're forced to use Google's default (ugly) stylesheet. With this simple PHP script, you can use your own.
 
+Technical
+---------
+
 To understand how this works, we'll need to know a little about what goes on when you embed a Google calendar.
 
 To begin, the embed code that Google gives you places an iFrame on your page that loads a webpage with your calendar. At once, it might seem trivial to see how to style it; just host your own CSS and overwrite Google's CSS, right? Unfortunately, we can't do that. Both the HTML and the CSS sheet are hosted on Google's servers. It'd be a security problem if you were able to put another webpage onto your site with an iFrame, then modify its appearance with CSS. So we can't do simple solution to the problem.

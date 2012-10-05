@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/******************************************
+
+This is just an example set of styling.
+Find the elements you want to style with your favorite set of developer tools.
+
+I prefer Chrome's!
+
+******************************************/
+
+.dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
+white-space:normal !important;
+}
+#calendarTitle,
+#timezone,
+.subscribe-image,
+#calendarTabs1,
+.calendar-nav,
+.date-nav-buttons {
+	display:none !important;
+}
+.view-container-border {
+	padding: 0 1px !important;
+	background-color: #e9e9e9 !important;
+	border-radius: 2px;
+	margin-top: 7px !important;
+}
+.mv-daynames-table {
+	background: #e9e9e9 !important;
+	color: #222 !important;
+	margin-top: 3px !important;
+}
+.view-cap {
+	background: #fff !important;
+}
+.date-top {
+	font-weight: normal !important;
+}
+.mv-event-container {
+	top: 20px !important;
+	border-top: 1px solid #e9e9e9 !important;
+	border-bottom: 1px solid #e9e9e9 !important;
+}
+.dp-cur {
+	color: #222 !important;
+	cursor: default !important;
+}
+.dp-prev, .dp-next {
+	color: #222 !important;
+}
+.dp-popup {
+	/*background: #e3f3ff;*/
+}
+.nav-table tr td:nth-last-child(3),
+.nav-table tr td:nth-last-child(4) {
+	display: none;
+}
+#arrowImg1 {
+	-webkit-appearance: none !important;
+	visibility: hidden;
+}
+#dateMenuArrow1 {
+	position: relative !important;
+	z-index: -1;
+}
+#dateMenuArrow1:after {
+	z-index: 100;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-image: url('https://www.google.com/calendar/images/menu_arrow_open.gif');
+	width: 9px;
+	height: 9px;
+	content: '';
+}
+.menu-link {
+	color: #2c99d8;
+}
+.links a {
+	color: #2c99d8;
+}
+.title {
+	font-family: 'Garamond' !important;
+	font-size: 19px !important;
+}

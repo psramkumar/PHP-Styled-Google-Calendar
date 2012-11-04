@@ -3,6 +3,10 @@ PHP Styled Google Calendar
 
 When you embed a Google Calendar to your webpage, you're forced to use Google's default (ugly) stylesheet. With this simple PHP script, you can use your own.
 
+[View an unstyled Google Calendar here](https://www.google.com/calendar/embed?src=envql02v2rijr5doiku8mulu3o%40group.calendar.google.com&ctz=America/New_York)
+
+[View a live styled Google Calendar](http://jmeas.com/projects/git/calendar/calendar.php)
+
 ### Technical Details
 
 To understand how this works, we'll need to know a little about what goes on when you embed a Google calendar.
